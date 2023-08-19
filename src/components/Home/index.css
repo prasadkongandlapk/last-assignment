@@ -4,3 +4,94 @@
   width: 100vw;
   height: 100vh;
 }
+.home-bg-without-nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.navigation-buttons-bg {
+  width: 20vw;
+  background-color: black;
+  color: white;
+}
+.navigation-button-bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  height: 40px;
+  color: #475569;
+  font-size: 15px;
+  font-weight: bold;
+}
+.navigation-icon {
+  margin-right: 15px;
+  color: #475569;
+}
+
+.advertizing-banner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.buy-premium-products-text {
+  color: #475569;
+}
+.info-bg {
+  width: 80vw;
+
+  margin-left: 20px;
+  margin-right: 30px;
+  padding-left: 20px;
+}
+
+.website-logo-in-home {
+  height: 25px;
+  width: 120px;
+}
+.get-it-now-btn {
+  color: black;
+  height: 25px;
+  background-color: transparent;
+  border-color: black;
+  font-size: 10px;
+}
+
+.del-banner-btn {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+.search-bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  background-color: transparent;
+  border-color: #475569;
+  border-style: solid;
+  width: 200px;
+  border-radius: 4px;
+  border: 1px;
+}
+
+.search-input {
+  width: 170px;
+  outline: none;
+  border-style: none;
+}
+
+.videos-bg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

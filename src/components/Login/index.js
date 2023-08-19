@@ -8,6 +8,8 @@ class Login extends Component {
 
   onSuccess = jwtToken => {
     Cookies.set('jwt_token', jwtToken, {expires: 10})
+    const {history} = this.props
+    history.replace('/')
   }
 
   onError = error => {
@@ -16,9 +18,6 @@ class Login extends Component {
 
   onSubmitForm = async event => {
     event.preventDefault()
-
-    const {history} = this.props
-    history.replace('/')
 
     const {username, password} = this.state
     const userDetails = {username, password}

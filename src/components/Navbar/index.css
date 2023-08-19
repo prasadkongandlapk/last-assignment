@@ -1,3 +1,42 @@
 .nav-bg {
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+.align-nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logout-btn {
+  border-color: #3b82f6;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: transparent;
+  color: #3b82f6;
+  width: 70px;
+  font-weight: bold;
+  height: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.profile-icon {
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+}
+
+.website-logo-in-navbar {
+  height: 20px;
+  width: 80px;
+  margin-left: 20px;
+}
+.theme-icon {
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
 }
