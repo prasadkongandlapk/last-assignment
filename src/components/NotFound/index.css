@@ -1,0 +1,12 @@
+.not-found-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.failure-img {
+  height: 150px;
+  width: 150px;
+}
